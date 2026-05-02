@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Apply Leave</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="glass" style="max-width:500px">
+        <h3>New Leave Application</h3>
+        <input id="name" placeholder="Name" value="Taha">
+        <select id="type">
+            <option>Casual Leave</option>
+            <option>Sick Leave</option>
+            <option>Emergency</option>
+        </select>
+        <div style="display:flex; gap:10px;">
+            <input type="date" id="start">
+            <input type="date" id="end">
+        </div>
+        <textarea id="reason" placeholder="Brief reason..."></textarea>
+        <button onclick="applyLeave()">Submit Request</button>
+        <p style="text-align:center"><a href="index.html" style="color:white">Cancel</a></p>
+    </div>
+    <script type="module" src="JS/script.js"></script>
+</body>
+</html>

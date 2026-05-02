@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Approval Portal</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body onload="window.loadApproval()" class="center">
+    <div class="glass" style="width: 80%; max-width: 600px;">
+        <h2>Pending Approvals</h2>
+        <table style="width: 100%;">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="approvalTable"></tbody>
+        </table>
+        <br>
+        <a href="index.html" style="color:white">Back to Dashboard</a>
+    </div>
+    <script type="module" src="JS/script.js"></script>
+</body>
+</html>
